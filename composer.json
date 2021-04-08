@@ -1,0 +1,15 @@
+{
+    "name": "hp/php_framework",
+    "authors": [
+        {
+            "name": "Sachitha Hirushan",
+            "email": "shpsachitha@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "app\\":"./"
+        }
+    },
+    "require": {}
+}

@@ -5,6 +5,9 @@ use app\core\Application;
 
  $app->router->get('/','home');
  $app->router->get('/contact','contact');
+ $app->router->post('/contact',function(){
+     return 'handeling submited data';
+ });
 
  $app->run();
 ?>
